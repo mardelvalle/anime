@@ -1,0 +1,60 @@
+nav{
+    border: 2px solid blue;
+    width: 100%;
+    height:50px;
+}
+
+#logo{
+    border:1px solid black;
+    height: 50px;
+    width: 10%;
+    float: left;
+}
+li{
+    list-style: none;
+    margin-right: 40px;
+    font-size: 20px;
+}
+#FriContainer{
+    height:570px;
+    width: 100%;
+    border:2px solid green;
+}
+#CurGenreOrTheme{
+    border:2px solid blue;
+    height: 570px;
+    width: 49%;
+    float: left;
+}
+#message{
+    border: 2px solid red;
+    height: 570px;
+    width: 50%;
+    float:right;
+}
+#messageAppend{
+    width: 100%;
+    height: 500px;
+    border: solid green;
+    overflow-y:auto;
+}
+#messageInp{
+    height: 50px;
+    width: 80%;
+}
+#post{
+    width: 18%;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    float: right;
+    border-radius: 50px;
+}
+.link{
+  float: right;
+}
+footer{
+    border: 2px solid salmon;
+    width: 100%;
+    height:50px;
+}

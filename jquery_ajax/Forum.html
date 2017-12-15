@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" href="Forum.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo"></div>
+    <ul>
+        <a class="link" href="index.html"> <li>Home</li> </a>
+        <a class="link" href="Forum.html"> <li>Forum</li> </a>
+
+    </ul>
+</nav>
+<div id="FriContainer">
+<div id="CurGenreOrTheme"><iframe width="650" height="570" src="https://www.youtube.com/embed/EQPCsB4u_f4" frameborder="0" gesture="media" allowfullscreen></iframe></div>
+<div id="message">
+<div id="messageAppend">
+    <ul id="list">
+
+    </ul>
+</div>
+<input type="text" id="messageInp"name="message" value="">
+<!-- input it going to be small but it should update intob a bigger space -->
+<button id="post" type="submit" name="button">Post</button>
+</div>
+</div>
+<footer>
+    <ul>
+        <a class="link" href="#"> <li>Feedback</li> </a>
+        <a class="link" href="#"> <li>Contact Info</li> </a>
+    </ul>
+</footer>
+<script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+<!--
+<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBEF3Ot46bnxuMdhQ60wPHQlvUPBilk6-I",
+    authDomain: "nerd-culture.firebaseapp.com",
+    databaseURL: "https://nerd-culture.firebaseio.com",
+    projectId: "nerd-culture",
+    storageBucket: "nerd-culture.appspot.com",
+    messagingSenderId: "389273980791"
+  };
+  firebase.initializeApp(config);
+</script>  -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="Forum.js" type="text/javascript" charset="utf-8" async defer></script>
+</body>
+</html>
